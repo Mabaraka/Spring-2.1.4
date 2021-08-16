@@ -10,8 +10,8 @@ import org.springframework.context.annotation.Configuration;
 public class AppConfig {
 
     @Bean ("island2")
-    public static Island2 getIsland(Wood3 wood) {
-        return new Island2(wood);
+    public static Island2 getIsland(Wood3 wood3) {
+        return new Island2(wood3);
     }
 
     @Bean ("egg6")
